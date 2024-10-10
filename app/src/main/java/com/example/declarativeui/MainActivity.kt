@@ -39,7 +39,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(name: String, age: Int, list: List <String>,image: Image, modifier: Modifier = Modifier) {
+fun Greeting(name: String, age: Int, list: List <String>, modifier: Modifier = Modifier) {
     Text(
         text = "Hello $name!",
         modifier = Modifier.padding(24.dp)
